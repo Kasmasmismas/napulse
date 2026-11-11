@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Фестиваль «На пульсе» · Вокал и Хореография · Крымск</title>
+<meta name="description" content="IV Всероссийский конкурс-фестиваль «На пульсе» — детское и молодёжное творчество: вокал и хореография. 5 декабря 2026, СКЦ, г. Крымск, ул. Ленина, 231. Положение, заявка, результаты прошлых лет.">
+<meta name="theme-color" content="#E60C80">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav__inner container">
+    <a class="nav__logo" href="#top" aria-label="Фестиваль «На пульсе» — на главную">
+      <img src="images/logo.png" alt="Логотип фестиваля «На пульсе»: вокал и хореография" width="63" height="60">
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Основная навигация">
+      <a href="#about">О фестивале</a>
+      <a href="#schedule">Расписание</a>
+      <a href="#team">Команда</a>
+      <a href="#jury">Жюри</a>
+      <a href="#venue">Площадка</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#regulations">Положение</a>
+      <a href="#archive">Результаты</a>
+      <a href="#apply" class="btn btn--pink btn--sm nav__cta">Подать заявку</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <span class="blob blob--pink"></span>
+    <span class="blob blob--cyan"></span>
+    <span class="blob blob--orange"></span>
+    <span class="blob blob--lime"></span>
+    <span class="note note--1">♪</span><span class="note note--2">♫</span>
+    <span class="note note--3">♬</span><span class="note note--4">♩</span>
+  </div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="hero__kicker reveal">IV Всероссийский конкурс-фестиваль</p>
+      <h1 class="hero__title reveal">
+        <span class="hero__title-main">На <span class="hero__title-accent">пульсе</span></span>
+        <svg class="hero__pulse" viewBox="0 0 560 64" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="pulseGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#E60C80"/><stop offset=".38" stop-color="#F39315"/>
+              <stop offset=".68" stop-color="#B5CD24"/><stop offset="1" stop-color="#15B3AF"/>
+            </linearGradient>
+          </defs>
+          <path d="M0 36 H150 L172 36 186 12 202 52 218 24 232 36 H310 L330 36 344 6 362 58 378 28 392 36 H560" fill="none" stroke="#EFE6D8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+          <path class="hero__pulse-path" pathLength="100" d="M0 36 H150 L172 36 186 12 202 52 218 24 232 36 H310 L330 36 344 6 362 58 378 28 392 36 H560" fill="none" stroke="url(#pulseGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="hero__title-line"><span class="w-pink">Детского</span> и <span class="w-cyan">молодёжного</span></span>
+        <span class="hero__title-line"><span class="w-orange">творчества</span></span>
+      </h1>
+      <div class="hero__chips reveal">
+        <span class="chip chip--pink">🎤 Вокал</span>
+        <span class="chip chip--cyan">💃 Хореография</span>
+      </div>
+      <div class="hero__meta reveal">
+        <div class="hero__meta-item"><b>5 декабря 2026</b><span>начало в 10:00</span></div>
+        <div class="hero__meta-item"><b>СКЦ Крымского района</b><span>Краснодарский край, г. Крымск, ул. Ленина, 231</span></div>
+      </div>
+      <div class="hero__actions reveal">
+        <a href="#apply" class="btn btn--pink btn--lg">Подать заявку</a>
+        <a href="#about" class="btn btn--ghost btn--lg">Подробнее</a>
+      </div>
+      <div class="hero-schedule reveal" id="schedule">
+        <b class="hero-schedule__title">📅 Расписание — скачать:</b>
+        <div class="hero-schedule__links">
+          <a href="docs/raspisanie-1-vokal.docx" download="Расписание Вокал 15 мая 2026.docx">🎤 Вокал · 15 мая</a>
+          <a href="docs/raspisanie-2-vokal.docx" download="Расписание Вокал 16 мая 2026.docx">🎤 Вокал · 16 мая</a>
+          <a href="docs/raspisanie-3-horeografiya.docx" download="Расписание Хореография 17 мая 2026.docx">💃 Хореография · 17 мая</a>
+        </div>
+      </div>
+      <div class="countdown reveal" id="countdown" aria-label="Обратный отсчёт до фестиваля">
+        <div class="countdown__cell"><b data-cd="d">--</b><span>дней</span></div>
+        <div class="countdown__cell"><b data-cd="h">--</b><span>часов</span></div>
+        <div class="countdown__cell"><b data-cd="m">--</b><span>минут</span></div>
+        <div class="countdown__cell"><b data-cd="s">--</b><span>секунд</span></div>
+      </div>
+    </div>
+  </div>
+  <svg class="hero__wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 Q120 10 240 35 T480 30 T720 45 T960 25 T1200 40 T1440 30 L1440 70 L0 70 Z" fill="#ffffff"/></svg>
+</section>
+<section class="section about" id="about">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--pink"></span>О фестивале</h2>
+    <div class="about__grid">
+      <div class="about__text reveal">
+        <p class="lead">Уже <b>четвёртый год</b> фестиваль <b class="w-pink">«На пульсе»</b> объединяет талантливых вокалистов и танцоров — от первых шагов на сцене до уверенных конкурсных программ.</p>
+        <p>Мы создаём пространство, где дети, подростки и молодёжь могут показать себя, получить профессиональную обратную связь от экспертного жюри и вдохновиться выступлениями ровесников. Два направления — <b class="w-pink">«Вокал»</b> и <b class="w-cyan">«Хореография»</b> — десятки номинаций и возрастная категория для каждого участника.</p>
+        <p>Фестиваль проходит в Социально-культурном центре муниципального образования Крымский район (СКЦ) — одной из лучших сцен Краснодарского края с профессиональным светом и звуком. Завершает день торжественный гала-концерт и награждение лауреатов.</p>
+      </div>
+      <div class="about__stats">
+        <div class="stat stat--pink reveal"><b data-count="4">0</b><span>года истории</span></div>
+        <div class="stat stat--cyan reveal"><b data-count="500" data-suffix="+">0</b><span>участников ежегодно</span></div>
+        <div class="stat stat--orange reveal"><b data-count="120" data-suffix="+">0</b><span>номеров в программе</span></div>
+        <div class="stat stat--lime reveal"><b data-count="15" data-suffix="+">0</b><span>городов и районов</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint team" id="team">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--cyan"></span>Организаторы и волонтёры</h2>
+    <h3 class="subsection__title reveal">Команда организаторов</h3>
+    <div class="cards cards--org" id="orgGrid"></div>
+    <h3 class="subsection__title reveal">Наши волонтёры</h3>
+    <p class="subsection__note reveal">Эти люди помогают фестивалю за кулисами: встречают участников, координируют потоки и создают атмосферу праздника.</p>
+    <div class="cards cards--vol" id="volGrid"></div>
+  </div>
+</section>
+<section class="section jury" id="jury">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--orange"></span>Члены жюри</h2>
+    <p class="section__sub reveal">Профессионалы сцены и педагоги, которые оценивают участников по направлениям фестиваля.</p>
+    <div class="cards cards--jury" id="juryGrid"></div>
+  </div>
+</section>
+
+<section class="section section--tint venue" id="venue">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--lime"></span>Место проведения</h2>
+    <div class="venue__grid">
+      <div class="venue__info reveal">
+        <div class="venue__address">
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="#E60C80" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+          <div><b>Социально-культурный центр муниципального образования Крымский район (СКЦ)</b><span>Краснодарский край, г. Крымск, ул. Ленина, 231</span></div>
+        </div>
+        <div class="venue__address venue__address--contacts">
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="#15B3AF" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg>
+          <div>
+            <b>Контакты оргкомитета</b>
+            <span><a href="tel:+79184121297">8 918 412-12-97</a> · <a href="tel:+79881802274">8 988 180-22-74</a></span>
+            <span><a href="mailto:napulse@internet.ru">napulse@internet.ru</a></span>
+          </div>
+        </div>
+        <p>Социально-культурный центр Крымского района — современная площадка с большим зрительным залом, профессиональным сценическим светом и звуком, просторными гримёрными и удобной зоной регистрации участников.</p>
+        <div class="venue__routes">
+          <div class="route">
+            <h4>🚌 Общественный транспорт</h4>
+            <p>Городские автобусы и маршрутные такси идут по ул. Ленина — выйдите на остановке рядом с СКЦ. От остановки — 2 минуты пешком до главного входа.</p>
+          </div>
+          <div class="route">
+            <h4>🚗 На автомобиле</h4>
+            <p>Ориентир — ул. Ленина, 231, центральная часть Крымска. Парковка для участников и гостей — со стороны главного входа; высадка коллективов у служебного въезда.</p>
+          </div>
+        </div>
+        <a class="btn btn--cyan" href="https://yandex.ru/maps/?text=Крымск%2C%20улица%20Ленина%2C%20231" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a>
+      </div>
+      <div class="venue__media">
+        <div class="venue__photos reveal">
+          <img data-photo="venue/venue-1" alt="Здание СКЦ Крымского района" loading="lazy">
+          <img data-photo="venue/venue-2" alt="Зрительный зал" loading="lazy">
+          <img data-photo="venue/venue-3" alt="Сцена" loading="lazy">
+        </div>
+        <div class="venue__map reveal" id="mapBox">
+          <div class="venue__map-placeholder" id="mapPlaceholder">
+            <svg viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path fill="#E60C80" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+            <b>Интерактивная карта</b>
+            <span>г. Крымск, ул. Ленина, 231</span>
+            <button class="btn btn--pink btn--sm" id="loadMap" type="button">Показать карту</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--purple"></span>Фотогалерея прошлых лет</h2>
+    <p class="section__sub reveal">Яркие моменты первых трёх фестивалей. Нажмите на фото, чтобы открыть его во весь экран.</p>
+    <div class="gallery__filters reveal" id="galleryFilters" role="tablist" aria-label="Фильтр по годам">
+      <button class="gfilter is-active" data-year="all" type="button">Все годы</button>
+      <button class="gfilter" data-year="2023" type="button">2023 · I фестиваль</button>
+      <button class="gfilter" data-year="2024" type="button">2024 · II фестиваль</button>
+      <button class="gfilter" data-year="2025" type="button">2025 · III фестиваль</button>
+    </div>
+    <div class="gallery__grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<section class="section regulations" id="regulations">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--cyan"></span>Положение</h2>
+    <p class="section__sub reveal">Официальный документ фестиваля «На пульсе». Ознакомьтесь с ним перед подачей заявки — здесь все правила участия, требования к номерам и критерии оценки жюри.</p>
+    <div class="reg-card reveal">
+      <div class="reg-card__preview" aria-hidden="true">
+        <div class="reg-doc reg-doc--back"></div>
+        <div class="reg-doc">
+          <span class="reg-doc__seal">PDF</span>
+          <span class="reg-doc__heading">Положение</span>
+          <span class="reg-doc__sub">фестиваля «На пульсе»</span>
+          <svg class="reg-doc__pulse" viewBox="0 0 200 34" preserveAspectRatio="none"><path d="M0 20 H52 L62 20 70 6 80 30 88 14 96 20 H138 L148 20 156 4 166 32 174 16 182 20 H200" fill="none" stroke="#E60C80" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="reg-doc__line" style="width:92%"></span>
+          <span class="reg-doc__line" style="width:100%"></span>
+          <span class="reg-doc__line" style="width:84%"></span>
+          <span class="reg-doc__line" style="width:96%"></span>
+          <span class="reg-doc__line" style="width:64%"></span>
+          <span class="reg-doc__line" style="width:88%"></span>
+        </div>
+      </div>
+      <div class="reg-card__body">
+        <h3 class="reg-card__title">Положение о фестивале «На пульсе»</h3>
+        <p class="reg-card__text">Документ описывает цели фестиваля, порядок подачи и подтверждения заявок, правила конкурсных выступлений и подведение итогов. Актуальная редакция всегда доступна для скачивания.</p>
+        <ul class="reg-card__list">
+          <li>Номинации и возрастные категории участников</li>
+          <li>Требования к номерам, фонограммам и реквизиту</li>
+          <li>Критерии оценки и порядок работы жюри</li>
+          <li>Награждение, организационный взнос и сроки</li>
+        </ul>
+        <div class="reg-card__actions">
+          <a class="btn btn--pink btn--lg" href="docs/polo.pdf" download="polozhenie-na-pulse.pdf">⬇ Скачать положение</a>
+          <a class="btn btn--ghost" href="docs/polo.pdf" target="_blank" rel="noopener">Открыть в браузере</a>
+        </div>
+        <p class="reg-card__meta"><span class="reg-card__chip">PDF</span><span id="poloMeta">действующая редакция фестиваля</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint archive" id="archive">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--pink"></span>Архив результатов</h2>
+    <p class="section__sub reveal">Ведомости фестивалей — скачивайте в PDF для просмотра или в Excel для работы с данными. Результаты 2027 года появятся после проведения.</p>
+    <div class="archive__grid" id="archiveGrid"></div>
+  </div>
+</section>
+<section class="section apply" id="apply">
+  <div class="container">
+    <h2 class="section__title reveal"><span class="dot dot--cyan"></span>Заявка на участие</h2>
+    <p class="section__sub reveal">Выберите направление и заполните форму. От одного руководителя можно подать несколько номеров — добавьте их кнопкой ниже. Перед подачей ознакомьтесь с <a class="text-link" href="#regulations">положением фестиваля</a>.</p>
+
+    <div class="apply__tabs reveal" role="tablist" aria-label="Направление заявки">
+      <button class="atab is-active" id="tabDance" role="tab" aria-selected="true" aria-controls="formDance" type="button">💃 Заявка: Хореография</button>
+      <button class="atab" id="tabVocal" role="tab" aria-selected="false" aria-controls="formVocal" type="button">🎤 Заявка: Вокальное искусство</button>
+    </div>
+
+    <div class="apply__panel reveal">
+      <form class="appform is-active" id="formDance" data-form="dance" role="tabpanel" aria-labelledby="tabDance" novalidate>
+        <h3 class="appform__heading appform__heading--cyan">Общие сведения о коллективе</h3>
+        <div class="appform__common" data-common></div>
+        <h3 class="appform__heading appform__heading--cyan">Конкурсные номера</h3>
+        <div class="appform__numbers" data-numbers></div>
+        <button class="addnum addnum--cyan" type="button" data-add>+ Добавить ещё один номер</button>
+        <div class="appform__footer">
+          <p class="appform__hint">Нажимая «Отправить заявку», вы соглашаетесь с условиями <a class="text-link" href="#regulations">положения фестиваля</a> и обработкой персональных данных оргкомитетом.</p>
+          <button class="btn btn--cyan btn--lg" type="submit">Отправить заявку</button>
+        </div>
+      </form>
+
+      <form class="appform" id="formVocal" data-form="vocal" role="tabpanel" aria-labelledby="tabVocal" novalidate hidden>
+        <h3 class="appform__heading appform__heading--pink">Общие сведения об исполнителе</h3>
+        <div class="appform__common" data-common></div>
+        <h3 class="appform__heading appform__heading--pink">Конкурсные номера</h3>
+        <div class="appform__numbers" data-numbers></div>
+        <button class="addnum addnum--pink" type="button" data-add>+ Добавить ещё один номер</button>
+        <div class="appform__footer">
+          <p class="appform__hint">Нажимая «Отправить заявку», вы соглашаетесь с условиями <a class="text-link" href="#regulations">положения фестиваля</a> и обработкой персональных данных оргкомитетом.</p>
+          <button class="btn btn--pink btn--lg" type="submit">Отправить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a class="footer__logo" href="#top" aria-label="Фестиваль «На пульсе» — на главную"><img src="images/logo.png" alt="Логотип фестиваля «На пульсе»: вокал и хореография, Крымск" width="190" height="180"></a>
+      <p>IV Всероссийский конкурс-фестиваль детского и молодёжного творчества<br>Вокал и хореография · 5 декабря 2026<br>СКЦ, г. Крымск, ул. Ленина, 231</p>
+    </div>
+    <div class="footer__col">
+      <h4>Контакты оргкомитета</h4>
+      <a href="tel:+79144807095" class="footer__link">📞 8-914-480-70-95</a>
+      <a href="mailto:napulse@internet.ru" class="footer__link">✉️ napulse@internet.ru</a>
+      <span class="footer__link">📍 г. Крымск, ул. Ленина, 231</span>
+    </div>
+    <div class="footer__col">
+      <h4>Мы в соцсетях</h4>
+      <div class="footer__social">
+        <a href="https://vk.ru/napulsefest" target="_blank" rel="noopener" aria-label="ВКонтакте — группа фестиваля «На пульсе»" class="soc soc--vk"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12.8 17.2c-5.5 0-8.6-3.8-8.7-10h2.7c.1 4.6 2.1 6.5 3.7 6.9V7.2h2.6v3.9c1.6-.2 3.2-1.9 3.8-3.9h2.6c-.4 2.5-2.2 4.2-3.4 4.9 1.2.6 3.2 2.1 4 5.1h-2.9c-.6-1.9-2.2-3.4-4.1-3.6v3.6h-.3z"/></svg></a>
+        <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram" class="soc soc--tg"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M21.9 4.6 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.3.3-.5.5-.9.5l.3-4.6L18.2 7c.4-.3-.1-.5-.6-.2L7.3 13.3l-4.5-1.4c-1-.3-1-1 .2-1.4l17.6-6.8c.8-.3 1.5.2 1.3 1z"/></svg></a>
+      </div>
+      <a href="#apply" class="btn btn--pink btn--sm">Подать заявку</a>
+    </div>
+  </div>
+  <div class="footer__bar"><div class="container">© 2023–2026 Оргкомитет фестиваля «На пульсе» · Крымск</div></div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фото" hidden>
+  <button class="lightbox__close" id="lbClose" aria-label="Закрыть">✕</button>
+  <button class="lightbox__arrow lightbox__arrow--prev" id="lbPrev" aria-label="Предыдущее фото">‹</button>
+  <figure class="lightbox__figure">
+    <img id="lbImg" alt="">
+    <figcaption id="lbCaption"></figcaption>
+  </figure>
+  <button class="lightbox__arrow lightbox__arrow--next" id="lbNext" aria-label="Следующее фото">›</button>
+  <div class="lightbox__count" id="lbCount"></div>
+</div>
+
+<div class="modal" id="confirmModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__card">
+    <div class="modal__burst" aria-hidden="true">🎉</div>
+    <h3 id="modalTitle">Заявка отправлена!</h3>
+    <p class="modal__text">Спасибо! Оргкомитет получил вашу заявку и свяжется с вами в течение трёх рабочих дней для подтверждения участия.</p>
+    <div class="modal__summary" id="modalSummary"></div>
+    <div class="modal__actions">
+      <button class="btn btn--pink" id="modalDownload" type="button">⬇ Скачать копию заявки</button>
+      <button class="btn btn--ghost" id="modalClose" type="button">Закрыть</button>
+    </div>
+  </div>
+</div>
+
+<canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+<button class="totop" id="toTop" aria-label="Наверх">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

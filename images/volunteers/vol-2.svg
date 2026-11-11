@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs><radialGradient id="g" cx="35%" cy="30%" r="90%"><stop offset="0%" stop-color="#A6408C"/><stop offset="100%" stop-color="#E60C80"/></radialGradient></defs>
+<rect width="400" height="400" fill="url(#g)"/>
+<g fill="#ffffff" opacity="0.22">
+<path d="M60 70 Q120 20 190 55 Q250 85 230 140 Q210 195 140 180 Q60 165 60 70Z"/>
+<circle cx="330" cy="90" r="26"/><circle cx="355" cy="150" r="12"/><circle cx="60" cy="300" r="18"/><circle cx="345" cy="320" r="30"/>
+</g>
+<g fill="#ffffff" opacity="0.35"><circle cx="90" cy="230" r="7"/><circle cx="310" cy="230" r="9"/><circle cx="270" cy="55" r="6"/><circle cx="120" cy="345" r="8"/></g>
+<g fill="#2D2D2C">
+<circle cx="200" cy="152" r="64"/>
+<path d="M78 400 Q80 268 200 262 Q320 268 322 400 Z"/>
+</g>
+<circle cx="200" cy="152" r="64" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.5"/>
+</svg>
